@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+}
+.MAIN{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.MIDDLE1,.MIDDLE2,.RIGHT,.LEFT{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 100%;
+    margin-inline:10px;
+    margin-block:40px;
+}
+.BOX1{
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    flex-basis:60vh;
+}
+.BOX8{
+    background-color: yellow;
+    flex-basis:60vh; 
+}
+.BOX9{
+    margin-block: 15px;
+    background-color: yellow;
+    flex-basis:28vh;
+}
+.BOX2{
+    margin-block: 15px;
+    background-color:blanchedalmond;
+    flex-basis:28vh;
+    text-align: center;
+}
+.BOX3{
+    background-color: pink;
+    flex-basis:35vh;
+    text-align: center;
+}
+.BOX4{
+    background-color: lightblue;
+    flex-basis:53vh;
+    margin-block: 15px;
+}
+.BOX5{
+    background-color: yellow;
+    flex-basis:35vh;
+    text-align: center;
+
+}
+.BOX6{
+    background-color: yellow;
+    margin-top: 15px;
+    flex-basis:35vh;
+    text-align: center;
+
+}
+.BOX7{
+    background-color: lightgray;
+    margin-block: 15px;
+    flex-basis:16vh; 
+    text-align: center;
+
+}
+.BOX1 img,.BOX4 img{
+width: 100%;
+height: 100%;
+}
+.BOX2 p,.BOX3 p,.BOX5 p,.BOX6 p,.BOX7 p{
+    color: black;
+    font-size: 25px;
+}
+.BOX9 iframe,.BOX8 iframe{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 800px) {
+    .MAIN{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .BOX4{
+        background-color: lightblue;
+        flex-basis:53vh;
+    }
+.MIDDLE1,.MIDDLE2,.RIGHT,.LEFT{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 100%;
+    margin-block: 10px;
+    margin-inline: 10px;
+}
+.LEFT{
+    margin-top:25px;
+}
+  }
